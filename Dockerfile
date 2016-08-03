@@ -40,7 +40,7 @@ ENV PATH /opt/microchip/xc16/bin:$PATH
 #RUN curl -fSL -A "Mozilla/4.0" -o /tmp/mplabx-installer.tar "http://www.microchip.com/mplabx-ide-linux-installer" \
 #    && tar xf /tmp/mplabx-installer.tar && rm /tmp/mplabx-installer.tar \
 #    && USER=root ./*-installer.sh --nox11 \
-#        -- --unattendedmodeui none --mode unattended --prefix /opt/microchip/mplabx \
+#        -- --unattendedmodeui none --mode unattended --installdir /opt/microchip/mplabx \
 #    && rm ./*-installer.sh
 #ENV PATH /opt/microchip/mplabx/mplab_ide/bin:$PATH
 
