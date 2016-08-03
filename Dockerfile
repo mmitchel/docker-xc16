@@ -51,5 +51,6 @@ RUN useradd developer \
     && chown developer:developer /home/developer/MPLABXProjects
 VOLUME /home/developer/MPLABXProjects
 
+# Exported Volumes for MPLABX IDE, Local Use
 #VOLUME ["/tmp/.X11-unix"]
-#CMD ["/usr/bin/mplab_ide"]
+#CMD ["/opt/microchip/mplabx/mplab_ide/bin/mplab_ide"]
