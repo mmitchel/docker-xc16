@@ -66,8 +66,8 @@ VOLUME /home/user/MPLABXProjects
 
 # Container Tool Version Reports to Build Log
 
-RUN [ -x /opt/microchip/xc8/bin/xc8 ] && xc8 --ver
+#RUN [ -x /opt/microchip/xc8/bin/xc8 ] && xc8 --ver
 RUN [ -x /opt/microchip/xc16/bin/xc16-gcc ] && xc16-gcc --version
-RUN [ -x /opt/microchip/xc32/bin/xc32-gcc ] && xc32-gcc --version
+#RUN [ -x /opt/microchip/xc32/bin/xc32-gcc ] && xc32-gcc --version
 
 #CMD ["/opt/microchip/mplabx/mplab_ide/bin/mplab_ide"]
